@@ -1,0 +1,26 @@
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid gray;
+    height: 80%;
+    flex-wrap: wrap; /* it will wrap the content to downward direction if goes beyond width */
+    /*
+    flex-wrap can be useful when working with cards , gallery etc it will get 
+    compatibe with mobile as well as desktop 
+    */
+
+}
+
+.flex-item{
+    background-color: red;
+    margin: 10px;
+    border: 3px solid;
+    width : 100px;
+    height: 100px;
+}
+
+.item-2{
+    flex-grow: 4; /* Increase the size of item */
+
+}
